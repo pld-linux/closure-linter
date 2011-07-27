@@ -1,7 +1,7 @@
 Summary:	Closure Linter - a style checker for JavaScript
 Name:		closure-linter
 Version:	2.3
-Release:	0.1
+Release:	1
 License:	Apache v2.0
 Group:		Applications/WWW
 Source0:	https://closure-linter.googlecode.com/files/closure_linter-%{version}.tar.gz
@@ -11,6 +11,7 @@ BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 # distribute module for for pkg_resources
 Requires:	python-distribute
+Requires:	python-gflags
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
