@@ -8,7 +8,7 @@ Source0:	https://closure-linter.googlecode.com/files/closure_linter-%{version}.t
 # Source0-md5:	fcf40eba81428d2d1e92cc97d2f66fde
 URL:		https://code.google.com/intl/en/closure/utilities/
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 # distribute module for for pkg_resources
 Requires:	python-distribute
 Requires:	python-gflags
